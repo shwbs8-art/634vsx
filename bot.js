@@ -4,8 +4,8 @@ const { Client, GatewayIntentBits } = require('discord.js');
 const config = {
     minecraft: {
         host: 'X1XC.aternos.me',
-port: 56576,
-username: 'SecurityBot',
+        port: 56576,
+        username: 'SecurityBot',
         auth: 'offline'
     },
     discord: {
@@ -321,8 +321,6 @@ discordClient.on('messageCreate', async function(message) {
         await message.reply('✅ تم تشغيل الرسائل');
     }
 });
-
-console.log('🚀 جاري التشغيل...');
 
 discordClient.login(config.discord.token).then(function() {
     console.log('✅ ديسكورد متصل');
