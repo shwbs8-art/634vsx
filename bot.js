@@ -3,9 +3,9 @@ const { Client, GatewayIntentBits } = require('discord.js');
 
 const config = {
     minecraft: {
-        host: process.env.MC_HOST || 'localhost',
-        port: parseInt(process.env.MC_PORT) || 25565,
-        username: process.env.MC_USERNAME || 'SecurityBot',
+        host: 'X1XC.aternos.me',
+port: 56576,
+username: 'SecurityBot',
         auth: 'offline'
     },
     discord: {
