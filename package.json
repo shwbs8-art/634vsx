@@ -3,16 +3,10 @@
   "version": "1.0.0",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js",
-    "postinstall": "npm update minecraft-protocol minecraft-data mineflayer"
+    "start": "node bot.js"
   },
   "dependencies": {
     "mineflayer": "latest",
-    "minecraft-protocol": "latest",
-    "minecraft-data": "latest",
     "discord.js": "latest"
-  },
-  "engines": {
-    "node": ">=20.0.0"
   }
 }
