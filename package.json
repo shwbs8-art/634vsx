@@ -6,7 +6,12 @@
     "start": "node bot.js"
   },
   "dependencies": {
-    "mineflayer": "latest",
-    "discord.js": "latest"
+    "mineflayer": "4.27.0",
+    "minecraft-protocol": "1.51.0",
+    "minecraft-data": "3.83.0",
+    "discord.js": "14.18.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   }
 }
